@@ -9,10 +9,12 @@ const GameOverScreen = (props) => {
   );
 };
 
-const styles = StyleSheet({
+const styles = StyleSheet.create({
   screen: {
     flex: 1,
-    justifyContent: center,
-    alignCenter: center,
+    justifyContent: 'center',
+    alignItems: 'center',
   },
 });
+
+export default GameOverScreen;
